@@ -306,6 +306,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.0.vendor \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -367,18 +368,8 @@ PRODUCT_PACKAGES += \
 
 # Minijail
 PRODUCT_PACKAGES += \
-    libminijail \
-    libminijail.vendor \
-    android.hardware.media.c2@1.2.vendor \
-    libcodec2_vndk.vendor \
     libavservices_minijail \
-    libavservices_minijail.vendor \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_hidl@1.1.vendor \
-    libavservices_minijail_vendor \
-    libcodec2_soft_common.vendor \
-    libsfplugin_ccodec_utils.vendor \
-    libstagefright_softomx.vendor
+    libavservices_minijail.vendor
 
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/xiaomi/vili-miuicamera/products/miuicamera.mk)
