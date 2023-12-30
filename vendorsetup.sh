@@ -2,16 +2,16 @@ echo 'Starting to clone stuffs needed for your device'
 echo 'Cloning Device Tree [1/5]'
 # vili Tree
 rm -rf device/xiaomi/vili
-git clone --depth=1 https://github.com/ProjectElixir-Devices/android_device_xiaomi_vili.git -b elixir device/xiaomi/vili
+git clone --depth=1 https://github.com/ProjectElixir-Devices/android_device_xiaomi_vili.git -b 14 device/xiaomi/vili
 echo 'Cloning vili Vendor tree [2/5]'
 # Device Vendor Tree
 rm -rf vendor/xiaomi/vili
-git clone --depth=1 https://github.com/ProjectElixir-Devices/android_vendor_xiaomi_vili.git vendor/xiaomi/vili
+git clone --depth=1 https://github.com/ProjectElixir-Devices/android_vendor_xiaomi_vili.git -b 14 vendor/xiaomi/vili
 
 echo 'Cloning Kernel tree [3/5]'
 # Kernel Tree
 rm -rf kernel/xiaomi/sm8350
-git clone --depth=1 git@github.com:ThatMalayaliDeb/kernel_xiaomi_sm8350.git kernel/xiaomi/sm8350
+git clone --depth=1 git@github.com:ThatMalayaliDeb/kernel_xiaomi_sm8350lineage.git -b lineage_14 kernel/xiaomi/sm8350
 
 echo 'Cloning Hardware xiaomi [4/5]'
 # Hardware xiaomi
