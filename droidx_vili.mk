@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/tequila/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 # MIUI stuff
 TARGET_SHIPS_GALLERY=true
@@ -21,13 +21,15 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Xiaomi 11T Pro
-PRODUCT_NAME := tequila_vili
+PRODUCT_NAME := droidx_vili
 
 # Add Elixir Flags
 ELIXIR_MAINTAINER := ThatMalayaliDeb
 ELIXIR_BUILD_TYPE := OFFICIAL
 BUILD_USERNAME := ThatMalayaliDeb
-BUILD_HOSTNAME := Elixir
+PRODUCT_NAME := droidx_vili
+DROIDX_BUILD_TYPE := OFFICIAL
+DROIDX_GAPPS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true

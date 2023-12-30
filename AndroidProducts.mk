@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/tequila_vili.mk
+	$(LOCAL_DIR)/droidx_vili.mk
 
 COMMON_LUNCH_CHOICES := \
-	tequila_vili-user \
-	tequila_vili-userdebug \
-	tequila_vili-eng
+	droidx_vili-user \
+	droidx_vili-userdebug \
+	droidx_vili-eng

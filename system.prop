@@ -25,6 +25,9 @@ debug.hwui.target_cpu_time_percent=20
 # Display
 ro.sf.force_hwc_brightness=1
 
+# Droidx Maintainer
+ro.droidx.maintainer=ThatMalayaliDeb
+
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
