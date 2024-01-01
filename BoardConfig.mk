@@ -118,9 +118,11 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
-  hwid.ko
-
-BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
+    fts_touch_spi.ko \
+    hwid.ko \
+    msm_drm.ko \
+    xiaomi_touch.ko
+    
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 
 # MIUI camera stuff
