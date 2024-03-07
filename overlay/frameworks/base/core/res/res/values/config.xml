@@ -632,6 +632,8 @@
         <item>com.google.camera</item>
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
+        <item>com.crdroid.faceunlock</item>
+        <item>org.pixelexperience.faceunlock</item>
     </string-array>
 
     <!-- Delay that allows some content to arrive at the display before switching
