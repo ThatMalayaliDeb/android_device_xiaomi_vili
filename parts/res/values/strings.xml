@@ -63,4 +63,29 @@
     <string name="refresh_default">Default</string>
     <string name="refresh_standard">60Hz</string>    
     <string name="refresh_extreme">120Hz</string>    
+    
+     <!-- Always on brightness -->
+    <string name="doze_brightness_title">Always on brightness</string>
+    <string name="doze_brightness_summary">%s mode is enabled</string>
+    <string name="doze_brightness_low">Low brightness</string>
+    <string name="doze_brightness_high">High brightness</string>
+    <string name="doze_brightness_adaptive">Adaptive brightness</string>
+    
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Optimization profiles</string>
+    <string name="thermal_summary">Adjust per-app profiles for optimum performance</string>
+    <string name="thermal_default">No optimization</string>
+    <string name="thermal_benchmark">Performance</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Games</string>
+    <string name="thermal_streaming">Streaming applications</string>
+
+     <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
+
+    
 </resources>
