@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vili device
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit some common Matrixx stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # MIUI stuff
 TARGET_SHIPS_GALLERY=true
@@ -25,10 +25,16 @@ PRODUCT_NAME := lineage_vili
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true
+
+# Mtrixx flags
+MATRIXX_BUILD_TYPE := Community
+MATRIXX_MAINTAINER := ThatMalayaliDeb
+MATRIXX_CHIPSET := SM8350
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 1080X2400
 WITH_GMS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
 PRODUCT_SYSTEM_NAME := vili_global
 PRODUCT_SYSTEM_DEVICE := vili
 
